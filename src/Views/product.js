@@ -39,6 +39,8 @@ function Product(){
    //          })
    //       })
    // }, [url])
+
+   
    if(product.loading){
       content = <Loader></Loader>
    }
